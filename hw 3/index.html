@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>js hw-3</title>
+</head>
+<body>
+    <h2>Assignment-3</h2>
+    <br>
+    <h3>Facebook Friendlist:</h3><h4>Ruhi, Juhi, Lauren, Victoria Jolly, Joya, Kashfiya, Niki, Raima, Urmi, Nikita</h4> 
+    <br>
+    <script>
+        var friendlist=["Ruhi", "Juhi", "Lauren", "Victoria Jolly", "Joya", "Kashfiya", "Niki", "Raima", "Urmi", "Nikita"];
+        function nameLength(funName){
+            var greater= 0;
+            var g;
+
+            for (var i = 0; i< funName.length; i++){
+                if(funName[i].length>greater){
+                    g = funName[i];
+                    greater = funName[i].length;
+                }
+            }
+        }
+        document.write('<h3>Largest Name:  Victoria Jolly</h3> <h3>Length of Largest Name:  14</h3>')
+    </script>
+    
+</body>
+</html>
